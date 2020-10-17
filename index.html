@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset=utf-8>
+  <meta http-equiv=X-UA-Compatible content="IE=edge,chrome=1">
+
+  <title>Split It</title>
+  <meta name=description content="Split some costs amongst friends.">
+  <meta name=author content="Cory Gagliardi">
+  <meta name=viewport content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=0"/>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="theme-color" content="#33691E" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+</head>
+<body>
+  <div id="costs">
+    <h1 id="logo"><div>SplitIt.cash</div></h1>
+    <h2>Who Paid What</h2>
+    <div id="people"></div>
+  </div>
+  <div id="splits" style="display:none">
+    <h2>Who Owes Who</h2>
+    <div id="split-people"></div>
+    <div id="totals-wrapper">
+      <div id="totals">
+        Total: <span id="total-amount"></span><br>
+        Amount Per Person: <span id="average-amount"></span>
+      </div>
+    </div>
+    <div id="clear">clear</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
